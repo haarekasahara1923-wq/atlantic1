@@ -65,8 +65,8 @@ export default function Home() {
             🏆 &nbsp; Affiliated & Recognized School — Gwalior, MP
           </div>
           <h1 className={`${styles.heroSchoolName} animate-fade-in-2`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <span style={{ fontSize: '1.2em', fontWeight: 800 }}>ATLANTIC</span>
-            <span style={{ fontSize: '0.6em', letterSpacing: '4px', fontWeight: 600, marginTop: '5px' }}>KIDS SCHOOL</span>
+            <span style={{ fontSize: '1.2em', fontWeight: 800, letterSpacing: '0.1em' }}>ATLANTIC</span>
+            <span style={{ fontSize: '0.6em', letterSpacing: '0.62em', fontWeight: 600, marginTop: '5px', marginRight: '-0.62em' }}>KIDS SCHOOL</span>
           </h1>
           <p className={`${styles.heroTagline} animate-fade-in-2`}>
             ✦ Empowering Minds &nbsp;·&nbsp; Shaping Futures &nbsp;·&nbsp; Building Leaders ✦
