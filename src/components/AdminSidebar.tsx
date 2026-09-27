@@ -46,7 +46,7 @@ export default function AdminSidebar({ logoUrl }: { logoUrl?: string }) {
           <img 
             src={logoUrl || "/images/logo.jpg"} 
             alt="Logo" 
-            style={{ width: '160px', height: '58px', borderRadius: '8px', objectFit: 'contain', background: '#FFFF00', margin: '0 auto', display: 'block' }}
+            style={{ width: '160px', height: '58px', borderRadius: '8px', objectFit: 'contain', background: '#FFFFFF', margin: '0 auto', display: 'block' }}
           />
           <h2>Admin Panel</h2>
         </div>
