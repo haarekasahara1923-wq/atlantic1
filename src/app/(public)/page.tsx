@@ -64,9 +64,11 @@ export default function Home() {
           <div className={`${styles.heroBadge} animate-fade-in`}>
             🏆 &nbsp; Affiliated & Recognized School — Gwalior, MP
           </div>
-          <h1 className={`${styles.heroSchoolName} animate-fade-in-2`} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <span style={{ fontSize: '1.2em', fontWeight: 800, letterSpacing: '0.1em' }}>ATLANTIC</span>
-            <span style={{ fontSize: '0.6em', letterSpacing: '0.62em', fontWeight: 600, marginTop: '5px', marginRight: '-0.62em' }}>KIDS SCHOOL</span>
+          <h1 className={`${styles.heroSchoolName} animate-fade-in-2`} style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'stretch' }}>
+            <span style={{ fontSize: '1.2em', fontWeight: 800, letterSpacing: '0.1em', textAlign: 'center', whiteSpace: 'nowrap' }}>ATLANTIC</span>
+            <span style={{ fontSize: '0.55em', fontWeight: 600, marginTop: '2px', display: 'flex', justifyContent: 'space-between', whiteSpace: 'nowrap' }}>
+              <span>K</span><span>I</span><span>D</span><span>S</span><span>&nbsp;&nbsp;</span><span>S</span><span>C</span><span>H</span><span>O</span><span>O</span><span>L</span>
+            </span>
           </h1>
           <p className={`${styles.heroTagline} animate-fade-in-2`}>
             ✦ Empowering Minds &nbsp;·&nbsp; Shaping Futures &nbsp;·&nbsp; Building Leaders ✦
