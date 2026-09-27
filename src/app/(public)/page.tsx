@@ -119,7 +119,7 @@ export default function Home() {
             A Legacy of <span className="gradient-text">Excellence</span> in Education
           </h2>
           <p className={styles.aboutPara}>
-            At Atlantic-1 School, we believe every child is a unique gift. With a holistic approach — blending academic rigor, cultural values, and modern innovation, we nurture every student to reach their full potential.
+            At ATLANTIC KIDS SCHOOL, we believe every child is a unique gift. With a holistic approach — blending academic rigor, cultural values, and modern innovation, we nurture every student to reach their full potential.
           </p>
           <p className={styles.aboutPara}>
             Our dedicated faculty, state-of-the-art facilities, and vibrant co-curricular programs ensure that every student reaches their full potential and steps out as a confident, compassionate global citizen.
@@ -131,7 +131,7 @@ export default function Home() {
         <div className={`${styles.aboutImageWrap} animate-slide-right`}>
           <img
             src="/images/about_kids.jpg"
-            alt="School Activities & Events at Atlantic-1 School"
+            alt="School Activities & Events at ATLANTIC KIDS SCHOOL"
             className={styles.aboutImg}
           />
           <div className={styles.aboutImageBadge}>

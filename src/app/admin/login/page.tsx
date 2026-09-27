@@ -75,7 +75,7 @@ export default function AdminLogin() {
           Admin Portal
         </h1>
         <p style={{ textAlign: 'center', marginBottom: '32px', color: '#767676', fontSize: '0.9rem' }}>
-          Atlantic-1 School
+          ATLANTIC KIDS SCHOOL
         </p>
 
         {error && (

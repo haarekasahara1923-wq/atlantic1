@@ -21,7 +21,7 @@ export default function LeadForm({ isOpen, onClose }: Props) {
     e.preventDefault();
     const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "918962678915";
     
-    const message = `Hello Atlantic-1 School,
+    const message = `Hello ATLANTIC KIDS SCHOOL,
 I am interested in reaching out.
 
 *Name:* ${formData.name}

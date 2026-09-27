@@ -28,7 +28,7 @@ export default async function PublicLayout({
     // fallback to default announcement
   }
   if (announcementTexts.length === 0) {
-    announcementTexts = ["Welcome to Atlantic-1 School — Admissions Open 2025-26!"];
+    announcementTexts = ["Welcome to ATLANTIC KIDS SCHOOL — Admissions Open 2025-26!"];
   }
 
   try {
@@ -48,7 +48,7 @@ export default async function PublicLayout({
   }
 
 
-  const schoolName = settingsMap["school_name"] || "Atlantic-1 School";
+  const schoolName = settingsMap["school_name"] || "ATLANTIC KIDS SCHOOL";
   const tagline = settingsMap["school_tagline"] || "Empowering Minds · Shaping Futures · Building Leaders";
   const logoUrl = settingsMap["school_logo_url"] || "";
   const phone = contact?.phone || "918962678915";

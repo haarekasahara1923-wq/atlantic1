@@ -11,7 +11,7 @@ interface FooterProps {
 }
 
 export default function Footer({
-  schoolName = "Atlantic-1 School",
+  schoolName = "ATLANTIC KIDS SCHOOL",
   tagline = "Empowering Minds · Shaping Futures · Building Leaders",
   address = "Shatabdipuram, Near Krishna Plaza, Gwalior",
   phone = "918962678915",

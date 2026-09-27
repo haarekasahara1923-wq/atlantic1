@@ -7,7 +7,7 @@ export default function ContactPage() {
   const [whatsapp, setWhatsapp] = useState("918962678915");
   const [email, setEmail] = useState("atlantic1@gmail.com");
   const [address, setAddress] = useState(
-    "Atlantic-1 School, Shatabdipuram, Near Krishna Plaza, Gwalior"
+    "ATLANTIC KIDS SCHOOL, Shatabdipuram, Near Krishna Plaza, Gwalior"
   );
   const [mapUrl, setMapUrl] = useState(
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14316.517336782298!2d78.22687135!3d26.22495865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c6b3e9458fcd%3A0xc6651261d7b05615!2sMorar%2C%20Gwalior%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
