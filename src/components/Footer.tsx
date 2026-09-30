@@ -28,7 +28,7 @@ export default function Footer({
               alt={`${schoolName} Logo`} 
               style={{ width: '180px', height: '68px', borderRadius: '8px', objectFit: 'contain' }}
             />
-
+            <span style={{ fontWeight: 'bold', fontSize: '1.4rem', color: '#fff', letterSpacing: '0.5px' }}>{schoolName}</span>
           </div>
           <p className={styles.footerText}>{tagline}</p>
         </div>
